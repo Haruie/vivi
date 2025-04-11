@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: black;
+  height: 100%;
+  width: 100%;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.scroll-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.line {
+  color: white;
+  font-size: 9vh;
+  white-space: nowrap;
+  font-weight: normal;
+  animation: scrollRight 30s linear infinite;
+}
+
+@keyframes scrollRight {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
