@@ -16,10 +16,10 @@ html, body {
 
 .line {
   color: white;
-  font-size: 9vh;
+  font-size: 5vh; /* smaller size */
   white-space: nowrap;
   font-weight: normal;
-  animation: scrollRight 30s linear infinite;
+  animation: scrollRight 60s linear infinite; /* slower speed */
 }
 
 @keyframes scrollRight {
